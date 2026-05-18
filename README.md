@@ -1,21 +1,14 @@
 # Exercise - HTML5 & CSS3 - Frontend - Reproduce using Grid
 
 ## Objetivo
-Reproduce la siguiente imagen utilizando html y css.
+Reproducir el ejercicio dado y sus imágenes con HTML y CSS, que sea responsive en tres dispositivos distintos y usando una fuente de Google Fonts.
 
-## Requisito
-- Usar grid.
-- Totalmente responsive: Phone, Tablet y Desktop.
-- Debes utilizar una fuente de [Google Fonts](https://fonts.google.com/).
+## Proceso
+En primer lugar investigué el funcionamiento de grid en CSS y cómo aplicarlo. Para ello usé la sección de [CSS Grid Layout](https://www.w3schools.com/css/css_grid.asp) de [W3Schools](https://www.w3schools.com/).
 
-<div style="display: flex; gap: 20px; flex-direction: column; align-items: center;">
-  <div>Desktop</div>
-  <img src="./imgs/01-grid-colors-desktop.png" alt="Imagen desktop" >
-  <div>Tablet</div>
-  <img src="./imgs/01-grid-colors-tablet-900.png" alt="Imagen tablet" >
-  <div>Phone</div>
-  <img src="./imgs/01-grid-colors-phone-600.png" alt="Imagen móvil" >
-</div>
+Una vez hecho esto preparé la primera parte del trabajo: los dos títulos con sus respectivos estilos, los cuales incluyen un poco de padding para que se vea como las imágenes propuestas. Aproveché este momento también para descargar e insertar la [fuente](https://fonts.google.com/) en el proyecto para usarla más adelante.
 
-## Resource
-- Font: https://fonts.google.com/specimen/Bitcount+Single?categoryFilters=Feeling:%2FExpressive%2FPlayful&preview.script=Latn
+Para terminar, preparé el grid y sus columnas, estilizándolas con sus colores y fuente de tal forma que quedara tal y como sugerían las imágenes propuestas por el ejercicio.
+
+## GitHub Pages
+Finalmente, hice un último commit con el README finalizado y habilité la página web en GitHub Pages.
